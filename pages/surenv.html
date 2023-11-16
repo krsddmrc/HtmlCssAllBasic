@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "Krsd Krdnz'in çalışma sayfaları" >
+	<meta name= "keywords"  content="Krdnz, TheBlueStar, html, css, plc"> 
+    <title>SurveyPage</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">    <!-- !Favicon -->  
+    <link rel="stylesheet" href="./stylebnm.css">
+</head>
+<body >
+    <div class="container">
+        <header id="header"  >
+            <img id='star' src="../img/pamuk.jpg" alt="Star.png"  width="100 px" height="100px" >
+            <h1>The A Company  request your preference.</h1>
+        </header>
+
+        <nav>
+            <div>
+                <h2>"Healty Env Survey."</h2>
+                  <hr>
+                  <div  >
+                    <ul class="ulfirst">
+                        <li class="lifirst"><a href="home.html">Home</a></li>
+                        <li class="lifirst"><a href="services.html">Services</a></li>
+                        <li class="lifirst"><a href="products.html">Products</a></li>
+                        <li class="lifirst"><a href="contact.html">Connect/Register</a></li>
+                        <li class="lifirst"><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>         
+        </nav>
+
+        <div class="mid"  style="display: flex">
+            <aside id="aside" >
+                <h3>Other Survey Pages</h3>
+                    <div>
+                        <ul class="ulsecond">
+                            <li class="lisecond"><a href="surreg.html">RegistrationContentSurvey</a> </li>
+                            <li class="lisecond"><a href="surnam.html">CompanyNameSurvey</a> </li>
+                            <li class="lisecond"><a href="sursup.html">FamilySupportSurvey</a> </li>
+                            <li class="lisecond"><a href="surenv.html">HealtyEnvSurvey</a> </li>
+                            <li class="lisecond"><a href="surreque.html">RequestOfSurvey</a> </li>
+                        </ul>
+                    </div>
+            </aside>
+            <article id="art" >
+                <form action="result.html" method="post">
+                    <div class="input_box">
+                        <label for="name">Name:</label>
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="Your name, please!">
+                    </div>
+                    <div class="input_box">
+                        <label for="surname">Surname:</label>
+                        <br>
+                        <input type="text" name="surname" id="surname" placeholder="Your surname, please!">
+                    </div>
+                    <div class="input_box">
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="Your email, please!">
+                    </div>
+                    <div class="gender">                    
+                        <label for="gender">Gender:</label>
+                        <br>
+                     <select name="gender" id="gender">
+                         <option value="Male" selected>"I don't want to statement"</option>
+                         <option value="Male">Male</option>
+                         <option value="Female">Female</option>
+                     </select>
+                    </div>
+                    <br>
+                    <div class="content_type">
+                        <label for="content">Survey for Staff's and Client's Registration Form Content</label>
+                        <br>
+                        <!-- <select name="content" id="dropdown"> -->
+                            <!-- <option value="staff">Titles For Staff</option> -->
+                            <!-- <option value="client" selected>Titles For Client</option> -->
+                        <!-- </select> -->
+                    </div>
+
+                    <div class="content">
+                        <label for=""id="stafflabel">Titles For Staff</label>
+                        <br>
+                        <input type="radio" name="staffName" id="staffName">Name
+                        <input type="radio" name="staffSurName" id="staffSurName">Surname
+                        <input type="radio" name="staffEmail" id="staffEmail">Email
+                        <input type="radio" name="staffGender" id="staffGender">Gender
+                        <input type="radio" name="staffAdress" id="staffAdress">Address
+                        <input type="radio" name="staffPhone" id="staffPhone">Phone
+                        <input type="radio" name="staffAge" id="staffAge">Age
+                        <input type="radio" name="staffWorkPeriod" id="staffWorkPeriod">WorkPeriod
+                        <input type="radio" name="staffWorkSection" id="staffWorkSection">Department
+                    </div>
+                    <br>
+                    <div class="content">
+                        <label for="" id="clilabel">Titles For Client</label>
+                        <br>
+                        <input type="radio" name="cliName" id="cliName">Name
+                        <input type="radio" name="cliSurName" id="cliSurName">Surname
+                        <input type="radio" name="cliEmail" id="cliEmail">Email
+                        <input type="radio" name="cliGender" id="cliGender">Gender
+                        <input type="radio" name="cliAdress" id="cliAdress">Address
+                        <input type="radio" name="cliPhone" id="cliPhone">Phone
+                        <input type="radio" name="cliAge" id="cliAge">Age
+                        <input type="radio" name="cliProfession" id="cliWorkPeriod">Profession
+                        <input type="radio" name="cliWorkPeriod" id="cliWorkPeriod">Period of Profession
+                    </div>
+                    <div class="input_box">
+                        <label for="text">Annotations:</label>
+                        <br>
+                        <input type="text" name="anntation" id="annotation">
+                    </div>
+                    <input id='submit' type="submit" id="submitbotton" value="Send">
+                </form>
+            </article>
+  
+        </div>
+        <hr>
+        <footer>            
+            <p> <em><u> Thanks to:</u></em></p> 
+            <div class="bottomlinks">
+                <a href="acompany.html">The A Company</a>
+                <a href="bcompany.html">The B Company</a>
+                <a href="ccompany.html">The C Company</a>
+                <a href="dcompany.html">The D Company</a><br>
+
+            </div>
+            <br>
+            <hr>
+            <div class="bottomlinks">
+                <a href="home.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="products.html">Products</a>
+                <a href="connect.html">Connect/Register</a>
+                <a href="about.html">About</a>    
+            </div>
+            <br>   
+            <span>&#169;copyrights2023-k2rdnz@gmail.com </span><span><a href="https://www.instagram.com/"><img src="../img/inst.png" alt="instegram"></a>|<a href="https://www.twitter.com"><img src="../img/twt.jpg" alt=""></a>|<a href="https://www.facebook.com"><img src="../img/face.png" alt="facebook"></a></span>        
+        </footer>
+    </div>
+</body>
+</html>

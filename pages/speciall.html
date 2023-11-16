@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "Krsd Krdnz'in çalışma sayfaları" >
+	<meta name= "keywords"  content="Krdnz, TheBlueStar, html, css, plc"> 
+    <title>A Company</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">    <!-- !Favicon -->  
+    <link rel="stylesheet" href="./homestyle.css">
+</head>
+<body >
+    <div class="container">
+        <header id="header"  >
+            <img id='star' src="../img/pamuk.jpg" alt="Star.png"  width="80 px" height="80px" >
+            <h1>The A Company</h1>
+        </header>
+        <nav>
+            <div>
+                <h2>"Home Page"</h2>
+                  <hr>
+                  <div  >
+                    <ul class="ulfirst">
+                        <li class="lifirst"><a href="home.html">Home</a></li>
+                        <li class="lifirst"><a href="services.html">Services</a></li>
+                        <li class="lifirst"><a href="products.html">Products</a></li>
+                        <li class="lifirst"><a href="contact.html">Connect/Register</a></li>
+                        <li class="lifirst"><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>         
+        </nav>
+
+        <article id="art"> 
+            <div>
+                <label for="dosya">Profil Fotoğrafı:</label>
+                <input type="file" name="file" id="dosya" multiple>
+            </div>
+            <div>
+                <label for="tel">Telefon No:</label>
+                <input type="tel" name="phone" id="tel"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                placeholder="xxx-xxx-xx-xx">
+                <!-- 555-555-55-55 -->
+            </div>
+            <div id="birthDate">
+                <label for="dogum">Doğum Tarihi Seçin:</label>
+                <input type="date" name="date" id="dogum"   value="2018-07-22"
+                min="2018-01-01" max="2018-12-31">
+            </div>
+        </article>
+        
+        <footer > 
+            <p> <em><u> Thanks to:</u></em></p>
+            <div class="bottomlinks">
+                <a href="acompany.html">The A Company</a>
+                <a href="bcompany.html">The B Company</a>
+                <a href="ccompany.html">The C Company</a>
+                <a href="dcompany.html">The D Company</a><br>
+            </div>  
+            <hr>
+            <div class="bottomlinks">
+                <a href="home.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="products.html">Products</a>
+                <a href="connect.html">Connect/Register</a>
+                <a href="about.html">About</a>    
+            </div>                       
+            <span>copyrights2023&#169;k2rdnz@gmail.com </span><span><a href="https://www.instagram.com/"><img src="../img/inst.png" alt="instegram"></a>|<a href="https://www.twitter.com"><img src="../img/twt.jpg" alt=""></a>|<a href="https://www.facebook.com"><img src="../img/face.png" alt="facebook"></a></span>         
+        </footer>
+    </div>
+</body>
+</html>

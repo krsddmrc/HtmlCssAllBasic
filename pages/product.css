@@ -1,0 +1,151 @@
+/* ! @mediaquery var */
+*{margin:0px;
+    padding:0px
+    }
+    body{
+
+        background-image: url(./kfs.png);
+    }
+    header{
+        text-align: center;
+        background-color: rgb(68, 60, 60);
+        color: beige;
+        font-size: 1rem;
+        letter-spacing: 0.02em; 
+    }
+
+    nav{
+        background-color: gray;
+        text-align: center;
+    } 
+    
+    #art{    
+        position:static; 
+        height: 450px;
+        background-color: white; 
+        opacity: 0.8;
+
+    }
+
+    footer{ 
+        position:relative;
+        padding: 5px 5px;
+        background-color: gray;
+        width: 100%; 
+    }
+    .bottomlinks{
+        padding: 6px;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        justify-content:space-around ;
+        width:100%;
+    }
+
+    ul.ulfirst{
+        padding:10px;
+
+    }
+    li.lifirst{
+        width: 150px;
+        display: inline-block;
+    
+    }
+    li.lisecond{
+        width:100px;  
+        padding: 10px;;        
+    }
+    a{
+        color:black;
+        padding: 10px;
+    }
+    a:hover{
+        background-color: white;
+        color: blue;
+        cursor: pointer;
+    }
+
+    span{
+        display:inline-block;
+        text-align:left;
+        width:50%;
+    }
+
+    p{
+        padding:10px;           
+    }
+    
+    .img{
+        position:fixed;   
+    }
+
+    .contact{  
+        text-align: center;
+        position: relative;   
+        margin:2% 7%;   
+        background-color: gray;
+        width:100%;
+        z-index:3;
+    }
+    .signin{  
+        text-align: center;
+        position: fixed; 
+        height:145px;     
+        margin:2% 5%; 
+        background-color: rgb(75, 72, 72);
+        width:100%;
+        z-index:1;
+    }
+    .register{   
+        text-align: center;
+        position: static;     
+        margin:2% 7%;
+        background-color: gray;
+        width:100%;
+        z-index:1;
+    }
+
+body {
+    background-color: #ddd;
+    color: black;
+}
+
+.flex-container {
+    color: whitesmoke;
+    display: flex;
+    background-color: rgb(143, 142, 144);
+    height: 450px;
+    flex-direction: column;  
+    align-content: flex-start;
+}
+
+.flex-items {
+    color: whitesmoke;
+    border: 1px solid rgb(30, 32, 30);
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(6, 88, 88);
+
+}
+
+#item1 {
+    color: whitesmoke;
+    background-color: rgb(39, 38, 38);
+    align-self: flex-end;
+}
+
+#item3 {
+    color: rgb(15, 14, 14);
+    background-color: rgb(226, 233, 226);
+    align-self: center;
+}
+
+#item5 {
+    color: whitesmoke;
+    background-color: blue;
+}
+
+
+
+

@@ -1,0 +1,60 @@
+
+*{margin:0px;
+    padding:0px
+    }
+    body{
+
+        background-image: url(./kfs.png);
+    }
+    /* #carouselExampleCaptions{
+    } */
+    header{
+        text-align: center;
+        background-color: rgb(68, 60, 60);
+        color: beige;
+        font-size: 1rem;
+        letter-spacing: 0.02em; 
+    }
+
+   footer{ 
+        position:relative;
+        padding: 5px 5px;
+        background-color: gray;
+        width: 100%; 
+    }
+    .bottomlinks{
+        padding: 6px;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        justify-content:space-around ;
+        width:100%;
+    }
+
+    li.lisecond{
+        width:100px;  
+        padding: 10px;;        
+    }
+    a{
+        color:black;
+        padding: 10px;
+    }
+    a:hover{
+        background-color: white;
+        color: blue;
+        cursor: pointer;
+    }
+
+    span{
+        display:inline-block;
+        text-align:left;
+        width:50%;
+    }
+
+    p{
+        padding:10px;
+    }
+
+
+
+
